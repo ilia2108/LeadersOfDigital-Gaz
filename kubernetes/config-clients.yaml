@@ -1,0 +1,7 @@
+apiVersion: v1
+data:
+    port: "8080"
+    database: "jdbc:postgresql://0.0.0.0:5432/clients-database"
+kind: ConfigMap
+metadata:
+    name: client-config

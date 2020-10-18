@@ -70,7 +70,7 @@ public class LoggingResource {
     )
     @APIResponse(
         responseCode = "204",
-        description = "The hero is not found for a given identifier"
+        description = "The log is not found for a given identifier"
     )
     @GET
     @Path("/{id}")
@@ -90,7 +90,7 @@ public class LoggingResource {
     )
     @APIResponse(
         responseCode = "201",
-        description = "The URI of the created hero",
+        description = "The URI of the created log",
             content = @Content(mediaType = APPLICATION_JSON, schema = @Schema(implementation = URI.class)))
     @POST
     public Response createLog(

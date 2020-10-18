@@ -2,13 +2,11 @@ package io.quarkus.gazprombank;
 
 import io.quarkus.hibernate.orm.panache.PanacheEntity;
 
-import javax.json.bind.annotation.JsonbDateFormat;
+
 import javax.persistence.Entity;
 import javax.validation.constraints.NotNull;
 
-import java.util.Date;
 import java.util.Random;
-import java.text.SimpleDateFormat;
 
 @Entity
 public class Logging extends PanacheEntity {
@@ -19,7 +17,6 @@ public class Logging extends PanacheEntity {
     public String msg;
     
 
-    //private static final SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
     @Override
     public String toString(){
         return "User #" + userID.toString()

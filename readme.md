@@ -1,6 +1,6 @@
 # CRM будущего
 
-Наше решение состоит из трех основных компонентов: Frontend (ReactJS), микросервисная логика (Quarkus.io) и машинное обучение. 
+Наше решение состоит из трех основных компонентов: Frontend (ReactJS), микросервисная логика (Quarkus.io) и машинное обучение. [Прототип дизайна](https://projects.invisionapp.com/prototype/gb-ckgcojmpf00389401fhkn0un1/play/80fcfabd) тоже оставляем тут. 
 
 ## Frontend
 

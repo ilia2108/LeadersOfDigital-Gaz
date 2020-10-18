@@ -35,3 +35,5 @@ curl --location --request POST 'http://localhost:883/nlp' --header 'Content-Type
 # Контакты
 
 В случае, если что-то решительно категорически пойдет не так, то мой телеграм и vk @ilia_2108, а моя почта ilya210819993@gmail.com
+
+

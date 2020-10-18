@@ -1,0 +1,7 @@
+apiVersion: v1
+data:
+    port: "8080"
+    database: "jdbc:postgresql://0.0.0.0:5432/transactions-database"
+kind: ConfigMap
+metadata:
+    name: transactions-config
